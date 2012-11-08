@@ -365,8 +365,6 @@ Si une réserve de revalorisation des parts sociales est constituée, les salari
 
 Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes qui apparaissent à la clôture de l’exercice s'imputent pour partie sur les réserves statutaires et pour partie sur le capital. L’imputation sur la réserve légale est interdite.
 
-<TODO: poser la question de l'utilité réelle de la réserve légale et ses utilisations potentielles>
-
 Les réserves statutaires sont principalement constituées par le fonds de développement.
 
 Le montant des pertes à imputer sur le capital se calcule selon la formule suivante :
@@ -375,15 +373,6 @@ Perte x (capital / capital + réserves statutaires).
 
 - le montant du capital à retenir est celui du dernier jour de l’exercice auquel a été réintégré le montant du capital qui était détenu par les associés sortants ;
 - les réserves statutaires sont celles inscrites au bilan au dernier jour de l’exercice.
-
-<!-- TODO : discuter avec Pierre Auriau, plutôt variante 2 après discussion interne -->
-##### Variante 1
-
-Pour le calcul de la valeur de remboursement de la part sociale, il est convenu que les pertes s'imputent prioritairement sur les réserves statutaires. L’imputation sur la réserve légale est interdite.
-
-Les réserves statutaires sont principalement constituées par le fonds de développement.
-
-##### Variante 2
 
 Il est convenu que les pertes s'imputent prioritairement sur la réserve de revalorisation des parts sociales puis sur les réserves statutaires. L’imputation sur la réserve légale est interdite.
 
@@ -429,8 +418,7 @@ La Société est administrée par un ou plusieurs gérants personnes physiques d
 
 Les premiers gérants de la Société sont messieurs Langlois Stéphane, Perriault Nicolas, Agnago Vincent et David Larlet.
 
-Leurs fonctions expireront le 31/12/2013 sous réserve de la faculté de
-réélection prévue ci-dessous.
+Leurs fonctions expireront le 31/12/2013 sous réserve de la faculté de réélection prévue ci-dessous.
 
 ### Obligations et droits des gérants
 
@@ -450,9 +438,7 @@ Leurs fonctions prennent fin à l’issue de l’assemblée générale ordinaire
 
 #### Révocation
 
-La révocation est prononcée à la majorité du nombre total des voix sur
-1ère convocation et à la majorité des voix des associés présents ou
-représentés sur 2ème convocation.
+La révocation est prononcée à la majorité du nombre total des voix sur 1ère convocation et à la majorité des voix des associés présents ou représentés sur 2ème convocation.
 
 ### Pouvoirs du ou des gérants
 
@@ -565,19 +551,13 @@ Les pouvoirs adressés à la Société sans désignation d'un mandataire sont co
 
 **Quorum** : aucune condition de quorum n’est exigée.
 
-**Majorité** : les décisions de l'assemblée des associés doivent être
-prises par une majorité représentant plus de la moitié du nombre total
-d'associés.
+**Majorité** : les décisions de l'assemblée des associés doivent être prises par une majorité représentant plus de la moitié du nombre total d'associés.
 
 ##### Deuxième consultation
 
-Si la première assemblée n'a pu décider dans les conditions fixées au
-premier alinéa, une seconde assemblée sera réunie et les décisions
-seront prises à la majorité des présents ou représentés.
+Si la première assemblée n'a pu décider dans les conditions fixées au premier alinéa, une seconde assemblée sera réunie et les décisions seront prises à la majorité des présents ou représentés.
 
-Les décisions concernant la nomination ou la révocation du gérant sont
-toujours prises à la majorité absolue de l'ensemble des associés et à
-bulletins secrets.
+Les décisions concernant la nomination ou la révocation du gérant sont toujours prises à la majorité absolue de l'ensemble des associés et à bulletins secrets.
 
 #### Décisions extraordinaires
 
@@ -687,22 +667,13 @@ Ce montant atteint, cette dotation est affectée au fonds de développement.
 
 Le fonds de développement doit être doté chaque année.
 
-
-<Question : peut-on le décider lors de l'ag et non dans les statuts ?>
-<Réponse : oui ; la proposition doit être faite par la gérance durant l'année de l'exercice en cours>
-
 #### Ristourne aux salariés
 
 Il sera attribué à tous les travailleurs associés ou non, employés dans la Société et comptant à la clôture de l'exercice, soit trois mois de présence dans l'exercice, soit six mois d'ancienneté dans la Société, un pourcentage des excédents nets au moins égal à 25 %. Les droits des bénéficiaires sur cette répartition sont établis au prorata de <valeur>.
 
-
 Par application de l’article 33-3 de la loi du 19 juillet 1978 portant statut des Scop, la répartition ainsi attribuée à chaque bénéficiaire est affectée d’un coefficient au maximum égal à 2 proportionnel à l’ancienneté de celui-ci au service de la Société. Cette ancienneté s’apprécie en années complètes à la clôture de l’exercice sur les résultats duquel la participation est calculée.
 
-Les coefficients sont les suivants :
-
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
-* Ancienneté comprise entre <ans> et <ans> : coefficient <valeur>.
+Les coefficients sont établis par la gérance durant l'année de l'exercice en cours.
 
 #### Intérêts aux parts sociales
 
@@ -714,25 +685,7 @@ En cas de cession, sauf disposition contraire prévue dans l’acte de cession, 
 
 Le taux d’intérêt est le même pour toutes les parts sociales.
 
-Le versement des intérêts aux parts sociales a lieu, sauf affectation à
-la création de nouvelles parts sociales, au plus tard neuf mois après la
-clôture de l'exercice.
-
-<Question: sur l'intérêt de garder cette option (plutôt à virer après discussion en interne) >
-<Réponse: voir résolution précédente ; en gros, on dégage cette notion de valorisation des parts sociales>
-
-#### Réserve de revalorisation des parts sociales (XXX: section à supprimer)
-
-<pourcentage> % sont affectés à la réserve de revalorisation des parts
-sociales.
-
-Cette provision dite "réserve de revalorisation" sera versée aux
-associés sortants ayant plus de cinq ans d'ancienneté.
-
-L’associé sortant remplissant la condition d’ancienneté visée à
-l’alinéa précédent a droit à une part de la réserve en proportion de sa
-part de capital dans le capital total et dans la limite du barème de
-revalorisation des rentes viagères.
+Le versement des intérêts aux parts sociales a lieu, sauf affectation à la création de nouvelles parts sociales, au plus tard neuf mois après la clôture de l'exercice.
 
 
 ### Accord de participation
