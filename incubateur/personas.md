@@ -1,11 +1,11 @@
 # Partenaires rêvés
 
-**Nota: nous ne sommes pas à l'aise avec le mot *client* ; nous lui préférons le terme de [<ins>partenaire</ins>](http://www.youtube.com/watch?v=rOPoP4YWgmk).**
+**Nota: nous ne sommes pas à l'aise avec le mot *client* ; nous lui préférons le terme de *partenaire*.**
 
 ## Marc, l'entrepreneur avec des idées structurées et la volonté de bien faire
 
-Marc est un homme de 35 ans ayant déjà monté une start-up mais s’est bien cassé la gueule.
-Il faut dire qu’un réseau social en Drupal, c’était pas forcément une bonne idée.
+Marc est un homme de 35 ans ayant déjà monté une start-up mais s’est bien cassé la gueule. Il faut dire qu’un réseau social en Drupal, c’était pas forcément une bonne idée.
+
 Cette fois, c’est la bonne, il le sait. Il a compris que la qualité de la plateforme technique, que la méthodologie étaient pour partie des facteurs clés de la réussite du projet.
 
 Il a pas mal bossé son business plan, mais se rend bien compte qu’il va devoir se faire aider sur les aspects mise en œuvre.
@@ -19,14 +19,22 @@ Il a également besoin de montrer des choses rapidement à des investisseurs pot
 
 ## Amandine, la directrice technique qui veut faire progresser son équipe
 
-Amandine est une femme de 27 ans qui gère l'équipe technique d'une startup de 12 personnes, elle a recruté 5 développeurs au cours de l'année avec un budget serré.
+Amandine est une femme de 27 ans qui gère l'équipe technique d'une startup de 12 personnes, elle a recruté 5 développeurs au cours de l'année avec un budget serré dans un contexte de lancement difficile.
 
-Elle souhaite faire progresser son équipe à la fois dans sa méthodologie et ses compétences techniques maintenant qu'un second tour de table a été bouclé pour améliorer la qualité de son produit.
+Elle souhaite faire progresser son équipe à la fois dans sa méthodologie et ses compétences techniques maintenant qu'un second tour de table a été bouclé auprès d'investisseurs pour améliorer la qualité de son produit.
 
-Elle a lu les valeurs de Scopyleft ce qui la décide dans son choix de s'adresser à notre équipe.
+Elle a lu les valeurs de Scopyleft, ce qui la décide dans son choix de s'adresser à notre équipe.
 
 **Points roulants : montée en compétences, appréciation des valeurs.**
 
+**Proposition Scopyleft :**
+
+Audit d'orientation sur 2 jours incluant l'observation de l'équipe en place puis des propositions d'améliorations à la carte :
+
+* revue de code pédagogique
+* coaching agile et/ou scrum master/product owner
+* pair programming et/ou formation technique
+* mise en place d'outils dédiés à la qualité (intégration continue, tests unitaires, etc)
 
 ## Medhi, le lead dev qui cherche du renfort
 
@@ -43,7 +51,7 @@ Il adhère aux valeurs mais c’est pas vraiment lui qui a le dernier mot pour c
 
 Frédéric a 35 ans et une ONG de 40 personnes qui marche bien. Il aime la technique et n’hésite pas à donner un coup de main à ses développeurs lorsqu’il le faut. Cela lui a permis de se rendre compte à quel point ils étaient introvertis et n’essayaient pas de voir s’il existait des alternatives aux outils et technologies qu’ils utilisent.
 
-Il souhaite avoir de l’aide pour enlever les œillères à son équipe afin d’améliorer et diversifier à terme ses produits finaux pour pérenniser son entreprise.
+Il souhaite avoir de l’aide pour ouvrir les œillères de son équipe afin d’améliorer et diversifier à terme ses produits finaux pour pérenniser son entreprise.
 
 **Points roulants : ouverture d'esprit, éthique du projet.**
 
@@ -57,11 +65,23 @@ Elle a entendu parler de Scopyleft par son fils, un peu geek, qui l'a déjà con
 **Points roulants : prototypage, expertise technique.**
 
 
+## Patricia, responsable innovation chez TCI lance un nouveau projet
+
+Patricia est maman depuis 25 ans. Elle a toujours voulu un avenir sein pour ses enfants. Elle s'est lancée comme responsable innovation dans le regroupement des Transports Collectifs et Individuels depuis leur naissance pour cette raison. Elle prend le train et le tram au quotiden.
+
+Depuis un certain temps, elle ressent une inéficacité sur la combinaison des transports. Il lui mettent trop longtemps sur son parcours pourtant simple. Les grèves récentes n'ont pas non plus aidé à l'efficacité.
+Elle a entammé une enquête utilisateurs et les résultats vont dans le sens de ce qu'elle présentait.
+Elle a donc proposé un nouveau projet de transport plus pertinent et plus adéquat à sa hierarchie. Elle a maintenant carte blanche pour lancer le projet dont le web sera la plaque tournante.
+
+Patricia s'est renseignée auprès de ses confrères. Plusieurs l'ont redirigée vers Scopyleft. Elle semble partager leurs valeurs mais ne connait rien à la technique. Elle a besoin d'être accompagnée et écoutée pour la réalisation de ce projet.
+
+Points roulants : projet ouvert, accompagnement, éthique du projet.
+
 # Partenariats généralement évités
 
 ## John, responsable commercial dans une grosse SSII parisienne
 
-John, 38 ans, est en charge de « trouver des bras » lorsqu’ils manquent en interne pour réaliser les projets de ses clients, généralement Grands Comptes.
+John, 38 ans, est en charge de « trouver des bras » lorsqu’ils manquent en interne pour réaliser les projets de ses clients, généralement Grands Comptes.
 
 Des projets entrants semblent de plus en plus demander ou impliquer Python et Django, aussi une rapide recherche Google l’amène à contacter Scopyleft pour savoir comment elle pourrait fournir de la main d'œuvre sur les projets en question.
 
@@ -83,7 +103,7 @@ Elle a bien aimé le discours de Scopyleft sur les valeurs, et le trouve plutôt
 
 ## Kévin et Brandon, des étudiants entrepreneurs
 
-Kévin et Brandon ont 21 ans et sont en école de commerce. Ils ont un peu de budget et une idée qui a germé sur les bancs de l'école, mais qui depuis a fait son bonhomme de chemin ; ils se positionnent sur le créneau nouvellement porteur du strip-poker en ligne temps-réel au travers de réseaux sociaux géolocalisés dans le Cloud.
+Kévin et Brandon ont 21 ans et sont en école de commerce. Ils ont un peu de budget et une idée qui a germé sur les bancs de l'école, mais qui depuis a fait son bonhomme de chemin ; ils se positionnent sur le créneau nouvellement porteur du strip-poker en ligne temps-réel au travers de réseaux sociaux géolocalisés dans le Cloud.
 
 Ils veulent se lancer dans la création d’une startup pour proposer leur service innovant qu’ils comptent revendre à Facebook dans 3 ans (s’ils arrivent à relocaliser l’entreprise en Belgique d’ici là).
 
