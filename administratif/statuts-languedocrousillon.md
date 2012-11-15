@@ -122,51 +122,51 @@ Il peut être transféré en tout autre lieu par décision des associés statuan
 
 ### Capital social initial et apports
 
-Le capital social initial est fixé à 8000 € divisé en 4 parts de 2000 € chacune entièrement souscrites et libérées, réparties entre les associés en proportion de leurs apports.
+Le capital social initial est fixé à 12000 € divisé en 4 parts de 3000 € chacune entièrement souscrites et libérées, réparties entre les associés en proportion de leurs apports.
 
 Les soussignés, dont les noms suivent, apportent à la Société :
 
--   M. Larlet David : 1000 € représentés par 20 parts sociales ;
--   M. Perriault Nicolas : 1000 € représentés par 20 parts sociales ;
--   M. Langlois Stéphane : 1000 € représentés par 20 parts sociales ;
--   M. Agnano Vincent : 1000 € représentés par 20 parts sociales ;
+-   M. Larlet David : 1550 € représentés par 31 parts sociales ;
+-   M. Perriault Nicolas : 1550 € représentés par 31 parts sociales ;
+-   M. Langlois Stéphane : 1550 € représentés par 31 parts sociales ;
+-   M. Agnano Vincent : 1550 € représentés par 31 parts sociales ;
 
-Soit un total de 4000 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le <XXX:date> à un compte ouvert au nom de la Société en formation à la banque <XXX:banque> ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
+Soit un total de 6200 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le <XXX:date> à un compte ouvert au nom de la Société en formation à la banque <XXX:banque> ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
 
 
 #### apports en nature
 
 M Larlet David apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Matériel et support informatique
+- Evaluation : 1450 €
 
 M Perriault Nicolas apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Matériel et support informatique
+- Evaluation : 1450 €
 
 M Langlois Stéphane apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Matériel et support informatique
+- Evaluation : 1450 €
 
 M Agnano Vincent apporte à la Société sous les garanties ordinaires et de droit :
 
-- Désignation : Apple Macbook
-- Evaluation : 1000 €
+- Désignation : Matériel et support informatique
+- Evaluation : 1450 €
 
-Aucun apport n’ayant une valeur supérieure à 30 000 € et la valeur totale de l’ensemble des biens n’excédant pas la moitié du capital social, les associés, à l’unanimité, ont décidé d’évaluer sous leur responsabilité, les apports à 4000 €. L’état des apports en nature figure en annexe (Annexe I).*
+Aucun apport n’ayant une valeur supérieure à 30 000 € et la valeur totale de l’ensemble des biens n’excédant pas la moitié du capital social, les associés, à l’unanimité, ont décidé d’évaluer sous leur responsabilité, les apports à 5800 €. L’état des apports en nature figure en annexe (Annexe I).*
 
--   En contrepartie de son apport M Larlet David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
--   En contrepartie de son apport M Perriault Nicolas a reçu 20 parts sociales d’une valeur nominale de 1000 €.
--   En contrepartie de son apport M Langlois Stéphane David a reçu 20 parts sociales d’une valeur nominale de 1000 €.
--   En contrepartie de son apport M Agnano Vincent a reçu 20 parts sociales d’une valeur nominale de 1000 €.
+-   En contrepartie de son apport M Larlet David a reçu 29 parts sociales d’une valeur nominale de 1450 €.
+-   En contrepartie de son apport M Perriault Nicolas a reçu 29 parts sociales d’une valeur nominale de 1450 €.
+-   En contrepartie de son apport M Langlois Stéphane David a reçu 29 parts sociales d’une valeur nominale de 1450 €.
+-   En contrepartie de son apport M Agnano Vincent a reçu 29 parts sociales d’une valeur nominale de 1450 €.
 
-L’ensemble des apports s’élève à la somme de 8000 € représentant :
+L’ensemble des apports s’élève à la somme de 12000 € représentant :
 
-- Les apports en numéraire pour un montant total de 4000 €.
-- Les apports en nature pour un montant total de 4000 €.
+- Les apports en numéraire pour un montant total de 6200 €.
+- Les apports en nature pour un montant total de 5800 €.
 
 
 ### Variabilité du capital
@@ -416,7 +416,7 @@ Les dispositions du présent article sont applicables aux héritiers et ayants d
 
 La Société est administrée par un ou plusieurs gérants personnes physiques désignés par l’assemblée générale des associés à bulletins secrets.
 
-Les premiers gérants de la Société sont messieurs Langlois Stéphane, Perriault Nicolas, Agnago Vincent et David Larlet.
+Les premiers gérants de la Société sont messieurs Langlois Stéphane et Perriault Nicolas.
 
 Leurs fonctions expireront le 31/12/2013 sous réserve de la faculté de réélection prévue ci-dessous.
 
