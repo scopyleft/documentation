@@ -418,7 +418,7 @@ La Société est administrée par un ou plusieurs gérants personnes physiques d
 
 Les premiers gérants de la Société sont messieurs Langlois Stéphane et Perriault Nicolas.
 
-Leurs fonctions expireront le 31/12/2013 sous réserve de la faculté de réélection prévue ci-dessous.
+Leurs fonctions expireront le 30 juin 2013 sous réserve de la faculté de réélection prévue ci-dessous.
 
 ### Obligations et droits des gérants
 
@@ -430,7 +430,7 @@ S'ils n'ont pas conclu un contrat de travail avec la Société, ou si, du fait d
 
 #### Nomination
 
-Les gérants sont choisis par les associés pour une durée de 1 an. La nomination est prononcée à la majorité du nombre total des voix sur première convocation et à la majorité des voix des associés présents ou représentés sur deuxième convocation.
+Les gérants sont choisis par les associés pour une durée de 6 mois. La nomination est prononcée à la majorité du nombre total des voix sur première convocation et à la majorité des voix des associés présents ou représentés sur deuxième convocation.
 
 Ils sont rééligibles et révocables.
 
@@ -454,10 +454,9 @@ La Société fera procéder tous les ans à la révision coopérative prévue pa
 
 En outre, la révision coopérative devra intervenir sans délai si :
 
--   elle est demandée par le dixième des associés ;
--   trois exercices consécutifs font apparaître des pertes comptables ;
--   les pertes d'un exercice s'élèvent à la moitié au moins du montant
-    le plus élevé atteint par le capital.
+- elle est demandée par le dixième des associés ;
+- trois exercices consécutifs font apparaître des pertes comptables ;
+- les pertes d'un exercice s'élèvent à la moitié au moins du montant le plus élevé atteint par le capital.
 
 #### Rapport de révision
 
