@@ -1,4 +1,7 @@
-# Toying around with Websockets & Python3
+title: Websockets & Python3
+author: Nicolas
+date: 2012-12-03
+published: false
 
 We recently decided to play around with [Websockets](http://websocket.org/) and [Python 3](http://wiki.python.org/moin/Python2orPython3). Choosing Python3 suggested it wouldn't be obvious, because while the situation improves month after month, a big part of the Python ecosystem is [still Python2-compatible only](https://python3wos.appspot.com/). We were wrong!
 
@@ -29,47 +32,45 @@ Tornado has a [`websocket` module](http://www.tornadoweb.org/documentation/webso
 
 Here's the code we started with:
 
-```python
-import json
+    import json
 
-from tornado import httpserver, ioloop, web, websocket
+    from tornado import httpserver, ioloop, web, websocket
 
-connections = []
-messages = []
+    connections = []
+    messages = []
 
-class MainHandler(web.RequestHandler):
-    def get(self):
-        self.render("test.html")
+    class MainHandler(web.RequestHandler):
+        def get(self):
+            self.render("test.html")
 
-class WSHandler(websocket.WebSocketHandler):
-    def write_json(self, **kwargs):
-        return self.write_message(json.dumps(**kwargs))
+    class WSHandler(websocket.WebSocketHandler):
+        def write_json(self, **kwargs):
+            return self.write_message(json.dumps(**kwargs))
 
-    def open(self):
-        if not (self in connections):
-            connections.append(self)
-        self.write_json(type='message', data=messages)
+        def open(self):
+            if not (self in connections):
+                connections.append(self)
+            self.write_json(type='message', data=messages)
 
-    def on_message(self, data):
-        data = json.loads(data)
-        for con in connections:
-            messages.append(data)
-            con.write_json(data)
+        def on_message(self, data):
+            data = json.loads(data)
+            for con in connections:
+                messages.append(data)
+                con.write_json(data)
 
-    def on_close(self):
-        if self in connections:
-            connections.remove(self)
+        def on_close(self):
+            if self in connections:
+                connections.remove(self)
 
-application = web.Application([
-    (r'/', MainHandler),    # HTML chat homepage
-    (r'/chat', WSHandler),  # WebSocket server
-])
+    application = web.Application([
+        (r'/', MainHandler),    # HTML chat homepage
+        (r'/chat', WSHandler),  # WebSocket server
+    ])
 
-if __name__ == "__main__":
-    http_server = httpserver.HTTPServer(application)
-    http_server.listen(8888)
-    ioloop.IOLoop.instance().start()
-```
+    if __name__ == "__main__":
+        http_server = httpserver.HTTPServer(application)
+        http_server.listen(8888)
+        ioloop.IOLoop.instance().start()
 
 **Note:** The `WebSocketHandler` class is only capable of passing strings or binary data by default; so we naturally used [JSON](http://json.org/) serialization to structure a bit our messages by adding a convenient `write_json()` method.
 
@@ -77,92 +78,88 @@ if __name__ == "__main__":
 
 For our chat frontend, the chat homepage template is very basic, rather ugly but functional:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>ScopyChat</title>
-    <style>
-    ul#chat {
-        width: 100%;
-        min-height: 200px;
-        background: #eee;
-    }
-    #post {
-        display: none;
-    }
-    </style>
-</head>
-<body>
-    <h1>Welcome to ScopyChat</h1>
-    <form id="login">
-        <label for="nick">Nick</label>
-        <input type="text" name="nick" id="nick">
-        <input type="submit" value="Join">
-    </form>
-    <ul id="chat" data-ws="ws://localhost:8888/ws"></ul>
-    <form id="post">
-        <label for="message">Post</label>
-        <input type="text" name="message" id="message">
-        <input type="submit" value="Post">
-    </form>
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <script>
-    jQuery(function($) {
-        var ws, $chat = $('#chat'), nick;
-        function log(data) {
-            $chat.append('<li>' + (data.nick ? data.nick + ': ' : '') + data.message + '</li>');
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ScopyChat</title>
+        <style>
+        ul#chat {
+            width: 100%;
+            min-height: 200px;
+            background: #eee;
         }
-        $('#login').on('submit', function(evt) {
-            evt.preventDefault();
-            ws = window.ws = new WebSocket('ws://localhost:8888/chat');
-            ws.onopen = function(evt) {
-                log({message: 'chat server connected'});
-            };
-            ws.onclose = function(evt) {
-                log({message: 'chat server disconnected'});
-            };
-            ws.onmessage = function(evt) {
-                var data = JSON.parse(evt.data);
-                if (data.type === 'list') {
-                    data.data.forEach(function(entry) {
-                        log(entry);
-                    });
-                } else {
-                    log(data);
-                }
-            };
-            $('#post').find('label').text('Post as ' + nick);
-            $('#post').show();
-        });
-        $('#post').on('submit', function(evt) {
-            evt.preventDefault();
-            if (!ws) {
-                return log({message: 'You are not connected.'});
+        #post {
+            display: none;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to ScopyChat</h1>
+        <form id="login">
+            <label for="nick">Nick</label>
+            <input type="text" name="nick" id="nick">
+            <input type="submit" value="Join">
+        </form>
+        <ul id="chat" data-ws="ws://localhost:8888/ws"></ul>
+        <form id="post">
+            <label for="message">Post</label>
+            <input type="text" name="message" id="message">
+            <input type="submit" value="Post">
+        </form>
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script>
+        jQuery(function($) {
+            var ws, $chat = $('#chat'), nick;
+            function log(data) {
+                $chat.append('<li>' + (data.nick ? data.nick + ': ' : '') + data.message + '</li>');
             }
-            ws.send(JSON.stringify({
-                type: 'new_message',
-                nick: $('#nick').val(),
-                message: $('#message').val()
-            }));
-            $('#message').val('');
+            $('#login').on('submit', function(evt) {
+                evt.preventDefault();
+                ws = window.ws = new WebSocket('ws://localhost:8888/chat');
+                ws.onopen = function(evt) {
+                    log({message: 'chat server connected'});
+                };
+                ws.onclose = function(evt) {
+                    log({message: 'chat server disconnected'});
+                };
+                ws.onmessage = function(evt) {
+                    var data = JSON.parse(evt.data);
+                    if (data.type === 'list') {
+                        data.data.forEach(function(entry) {
+                            log(entry);
+                        });
+                    } else {
+                        log(data);
+                    }
+                };
+                $('#post').find('label').text('Post as ' + nick);
+                $('#post').show();
+            });
+            $('#post').on('submit', function(evt) {
+                evt.preventDefault();
+                if (!ws) {
+                    return log({message: 'You are not connected.'});
+                }
+                ws.send(JSON.stringify({
+                    type: 'new_message',
+                    nick: $('#nick').val(),
+                    message: $('#message').val()
+                }));
+                $('#message').val('');
+            });
         });
-    });
-    </script>
-</body>
-</html>
-```
+        </script>
+    </body>
+    </html>
 
 To run the chat webserver:
 
-```
-$ python server.py
-```
+    $ python server.py
 
 Connect to `http://localhost:8888/`, you should have a brand new functional relatime websocket-powered chat python3 webserver live, and much more probably a cool mouthful buzzword-bingo sentence to impress your friends with.
 
-XXX: image ![tornado-powered scopychat capture]()
+![tornado-powered scopychat capture](/static/images/blog/2012/scopychat-demo.png)
 
 ## CheryPy
 
@@ -170,91 +167,87 @@ For the records, we also tried [CherryPy](http://www.cherrypy.org/), but while i
 
 Our simple CherryPy chat server:
 
-```python
-import random
-import cherrypy
+    import random
+    import cherrypy
 
-from ws4py.server.cherrypyserver import WebSocketPlugin, WebSocketTool
-from ws4py.websocket import WebSocket
+    from ws4py.server.cherrypyserver import WebSocketPlugin, WebSocketTool
+    from ws4py.websocket import WebSocket
 
-cherrypy.config.update({'server.socket_host': '127.0.0.1',
-                        'server.socket_port': 9000})
-plugin = WebSocketPlugin(cherrypy.engine)
-plugin.subscribe()
+    cherrypy.config.update({'server.socket_host': '127.0.0.1',
+                            'server.socket_port': 9000})
+    plugin = WebSocketPlugin(cherrypy.engine)
+    plugin.subscribe()
 
-cherrypy.tools.websocket = WebSocketTool()
+    cherrypy.tools.websocket = WebSocketTool()
 
-class EchoWebSocketHandler(WebSocket):
-    def received_message(self, message):
-        cherrypy.log('message: %s' % message.data)
-        self.plugin.broadcast(message.data, message.is_binary)
+    class EchoWebSocketHandler(WebSocket):
+        def received_message(self, message):
+            cherrypy.log('message: %s' % message.data)
+            self.plugin.broadcast(message.data, message.is_binary)
 
 
-class Root(object):
-    def __init__(self, plugin):
-        self.plugin = plugin
+    class Root(object):
+        def __init__(self, plugin):
+            self.plugin = plugin
 
-    @cherrypy.expose
-    @cherrypy.tools.websocket(on=False)
-    def ws(self):
-        with open("index.phtml") as html_template:
-            return html_template.read() % {
-                'username': "User%d" % random.randint(0, 100),
-            }
+        @cherrypy.expose
+        @cherrypy.tools.websocket(on=False)
+        def ws(self):
+            with open("index.phtml") as html_template:
+                return html_template.read() % {
+                    'username': "User%d" % random.randint(0, 100),
+                }
 
-    @cherrypy.expose
-    def index(self):
-        cherrypy.request.ws_handler.plugin = self.plugin
-        cherrypy.log("Handler created: %s" % repr(cherrypy.request.ws_handler))
+        @cherrypy.expose
+        def index(self):
+            cherrypy.request.ws_handler.plugin = self.plugin
+            cherrypy.log("Handler created: %s" % repr(cherrypy.request.ws_handler))
 
-cherrypy.quickstart(Root(plugin), '/', config={
-    '/': {'tools.websocket.on': True,
-          'tools.websocket.handler_cls': EchoWebSocketHandler,
-}})
-```
+    cherrypy.quickstart(Root(plugin), '/', config={
+        '/': {'tools.websocket.on': True,
+              'tools.websocket.handler_cls': EchoWebSocketHandler,
+    }})
 
 The template we used, while a bit simpler than the one we used with Tornado, doesn't do much but is sufficient to make the app works:
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>ScopyChat</title>
-</head>
-<body>
-    <h1>Welcome to ScopyChat</h1>
-    <form action="/echo" id="chatform" method="get">
-        <textarea id="chat" cols="35" rows="10"></textarea>
-        <br />
-        <label for="message">%(username)s:</label>
-        <input type="text" id="message" />
-        <input type="submit" value="Send" />
-    </form>
-    <script type="application/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-    <script type="application/javascript">
-    jQuery(function($) {
-        var ws = new WebSocket('ws://localhost:9000/');
-        ws.onmessage = function (evt) {
-            $('#chat').val($('#chat').val() + evt.data + '\n');
-            console.log("message recu : ", evt.data);
-        };
-        ws.onopen = function(evt) {
-            ws.send("Hello there");
-        };
-        ws.onclose = function(evt) {
-            $('#chat').val($('#chat').val() + 'Connection closed by server: ' + evt.code + ' \"' + evt.reason + '\"\n');
-        };
-        $('#chatform').submit(function(evt) {
-            evt.preventDefault();
-            ws.send('%(username)s: ' + $('#message').val());
-            $('#message').val("");
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>ScopyChat</title>
+    </head>
+    <body>
+        <h1>Welcome to ScopyChat</h1>
+        <form action="/echo" id="chatform" method="get">
+            <textarea id="chat" cols="35" rows="10"></textarea>
+            <br />
+            <label for="message">%(username)s:</label>
+            <input type="text" id="message" />
+            <input type="submit" value="Send" />
+        </form>
+        <script type="application/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <script type="application/javascript">
+        jQuery(function($) {
+            var ws = new WebSocket('ws://localhost:9000/');
+            ws.onmessage = function (evt) {
+                $('#chat').val($('#chat').val() + evt.data + '\n');
+                console.log("message recu : ", evt.data);
+            };
+            ws.onopen = function(evt) {
+                ws.send("Hello there");
+            };
+            ws.onclose = function(evt) {
+                $('#chat').val($('#chat').val() + 'Connection closed by server: ' + evt.code + ' \"' + evt.reason + '\"\n');
+            };
+            $('#chatform').submit(function(evt) {
+                evt.preventDefault();
+                ws.send('%(username)s: ' + $('#message').val());
+                $('#message').val("");
+            });
         });
-    });
-    </script>
-</body>
-</html>
-```
+        </script>
+    </body>
+    </html>
 
 The server is to be launched with `$ python server.py` and the chat server address is `http://localhost:9000/` by default.
 
