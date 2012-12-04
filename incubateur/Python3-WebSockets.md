@@ -26,11 +26,7 @@ So we went for a realtime chat Web server. Yeah we know, it's not exactly revolu
 
 ## [Tornado](http://www.tornadoweb.org/)
 
-<<<<<<< HEAD
 Tornado has a [`websocket` module](http://www.tornadoweb.org/documentation/websocket.html) which provides a `WebSocketHandler` class to react on websocket-related events. The cool thing with Tornado — as with CherryPy — is that it can serve both HTTP and WebSockets from a single script.
-=======
-Tornado has a [`websocket` module](http://www.tornadoweb.org/documentation/websocket.html) which provides a `WebSocketHandler` class to react on WebSocket-related events. The cool thing with Tornado — as it is with CherryPy — is that it can serve both HTTP and WebSockets from a single script.
->>>>>>> bafc1dc07161df8e8205a8e95746e9b9870ec056
 
 ### The backend
 
