@@ -35,10 +35,32 @@ Les marqueurs étaient stockés localement afin de les mettre à jour en fonctio
 
 La communication en temps-réel entre les différents participants était assurée par les `websockets` de manière native (en pratique il faudrait utiliser des surcouches comme [socket.io](http://socket.io/) pour pallier aux obsolescences de certains navigateurs mais nous souhaitions rester en mode "plaisir") :
 
+    var markers = [];
+
+    function fitMap() {
+        var markersCoordinates = [];
+        markers.forEach(function(marker) {
+            markersCoordinates.push([marker.data.lat, marker.data.lon]);
+        });
+        map.fitBounds(markersCoordinates);
+    }
+
+    function updateMarker(neighbor) {
+        var marker = markers.filter(function(marker) {
+            return neighbor.id === marker.data.id;
+        })[0];
+        if (!marker) {
+            return;
+        }
+        marker.setLatLng(new L.LatLng(neighbor.lat, neighbor.lon));
+        marker.update();
+        marker.data = neighbor;
+        fitMap();
+    }
+
     var ws = new WebSocket(wsurl);
     ws.onmessage = function(evt) {
-        var data = JSON.parse(evt.data);
-        updateMarker(data);
+        updateMarker(JSON.parse(evt.data));
     };
     ws.send(JSON.stringify({
         lat: user.lat,
@@ -46,4 +68,4 @@ La communication en temps-réel entre les différents participants était assur�
         id: user.id,
     }));
 
-Encore une fois l’usage restait basique et donc l’implémentation relativement simple. Au final en quelques lignes de JavaScript on arrive à avoir un affichage de carte dynamique qui répond bien à l’idée que l’on se faisait de notre prototype d’application, le plus compliqué pour moi aura été de générer un code propre mais heureusement Nicolas et Vincent veillaient au grain ce qui m’a permis d’apprendre beaucoup de concepts jusque là ignorés grâce à nos itérations en binômes. Vive l’apprentissage coopératif :-)
+Encore une fois l’usage restait basique et donc l’implémentation relativement naïve. Au final en quelques lignes de JavaScript, on arrive à avoir un affichage de carte dynamique qui répond bien à l’idée que l’on se faisait de notre prototype d’application — le plus compliqué pour moi aura été de générer un code propre mais heureusement [Nicolas](https://nicolas.perriault.net/) et [Vincent](http://vinyll.github.com/) veillaient au grain, ce qui m’a permis d’apprendre beaucoup de concepts jusque là ignorés grâce à nos itérations en binômes. Vive l’apprentissage coopératif :-)
