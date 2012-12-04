@@ -18,7 +18,7 @@ So we found [Tornado](http://www.tornadoweb.org/) and [WebSocket-for-Python (ws4
 At first we wanted an app as simple as possible to highlight its capabilities and the underlying concepts:
 
 - realtime message sending through websocket, of course
-- message bradcasting
+- message broadcasting
 - light, simple and illustrative code
 - as little dependencies as possible
 
