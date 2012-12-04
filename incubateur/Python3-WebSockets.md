@@ -1,9 +1,9 @@
-title: Websockets & Python3
+title: WebSockets & Python3
 author: Nicolas
 date: 2012-12-03
 published: false
 
-We recently decided to play around with [Websockets](http://websocket.org/) and [Python 3](http://wiki.python.org/moin/Python2orPython3). Choosing Python3 suggested it wouldn't be obvious, because while the situation improves month after month, a big part of the Python ecosystem is [still Python2-compatible only](https://python3wos.appspot.com/). We were wrong!
+We recently decided to play around with [WebSockets](http://www.websocket.org/) and [Python 3](http://wiki.python.org/moin/Python2orPython3). Choosing Python3 suggested it wouldn't be obvious, because while the situation improves month after month, a big part of the Python ecosystem is [still Python2-compatible only](https://python3wos.appspot.com/). We were wrong!
 
 ## Choosing a Python3 compatible Websocket server
 
@@ -11,13 +11,13 @@ Nowadays lots of developers seem doing WebSockets using [Gevent](http://www.geve
 
 [Django](http://djangoproject.com/) has Python3 support [starting with 1.5a1](https://www.djangoproject.com/weblog/2012/oct/25/15-alpha-1/), but has no builtin support for WebSockets, and we didn't found any third-party WebSocket-enabler app compatible with Python3 at the time we searched for one.
 
-So we found [Tornado](http://www.tornadoweb.org/) and [WebSocket-for-Python (ws4py)](https://github.com/Lawouach/WebSocket-for-Python) combined with [CherryPy](http://www.cherrypy.org/), which are both compatible with Python3 out of the box and provide native support for Websockets.
+So we found [Tornado](http://www.tornadoweb.org/) and [WebSocket-for-Python (Ws4py)](https://github.com/Lawouach/WebSocket-for-Python) combined with [CherryPy](http://www.cherrypy.org/), which are both compatible with Python3 out of the box and provide native support for WebSockets.
 
 ## Our test application: the ScopyChat™
 
 At first we wanted an app as simple as possible to highlight its capabilities and the underlying concepts:
 
-- realtime message sending through websocket, of course
+- realtime message sending through WebSockets, of course
 - message broadcasting
 - light, simple and illustrative code
 - as little dependencies as possible
@@ -26,7 +26,7 @@ So we went for a realtime chat Web server. Yeah we know, it's not exactly revolu
 
 ## [Tornado](http://www.tornadoweb.org/)
 
-Tornado has a [`websocket` module](http://www.tornadoweb.org/documentation/websocket.html) which provides a `WebSocketHandler` class to react on websocket-related events. The cool thing with Tornado — as it is with CherryPy — is that it can serve both HTTP and WebSockets from a single script.
+Tornado has a [`websocket` module](http://www.tornadoweb.org/documentation/websocket.html) which provides a `WebSocketHandler` class to react on WebSocket-related events. The cool thing with Tornado — as it is with CherryPy — is that it can serve both HTTP and WebSockets from a single script.
 
 ### The backend
 
@@ -157,15 +157,15 @@ To run the chat webserver:
 
     $ python server.py
 
-Connect to `http://localhost:8888/`, you should have a brand new functional relatime websocket-powered chat python3 webserver live, and much more probably a cool mouthful buzzword-bingo sentence to impress your friends with.
+Connect to `http://localhost:8888/`, you should have a brand new functional relatime WebSocket-powered chat python3 Web server live, and much more probably a cool mouthful buzzword-bingo sentence to impress your friends with.
 
-![tornado-powered scopychat capture](/static/images/blog/2012/scopychat-demo.png)
+![tornado-powered scopychat capture](http://cl.ly/image/1D0P0814272e/scopychat-demo.png)
 
-## [ws4py](https://github.com/Lawouach/WebSocket-for-Python) with [CherryPy](http://www.cherrypy.org/)
+## [Ws4py](https://github.com/Lawouach/WebSocket-for-Python) with [CherryPy](http://www.cherrypy.org/)
 
 Ws4py is a Python3 compatible *library providing an implementation of the WebSocket protocol defined in RFC 6455*. It offers support for Gevent and CherryPy — the latter being the only one supporting Python3 out of the box, so we went for it.
 
-While the combination works perfectly, we were a bit less impressed by the CherryPy API — essentially because ws4py is then used as a CherryPy plugin — though we may have missed something obvious to make it less complicated to implement.
+While the combination works perfectly, we were a bit less impressed by the CherryPy API — essentially because Ws4py is then used as a CherryPy plugin — though we may have missed something obvious to make it less complicated to implement.
 
 Our simple CherryPy chat server:
 
