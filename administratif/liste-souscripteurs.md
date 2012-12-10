@@ -49,7 +49,7 @@
 </tbody>
 </table>
 
-Le présent état, qui constate la souscription de 104 (deux cents) parts sociales de la société Scopyleft, ainsi que le versement de la somme de 6240 € (six mille deux cent quarante euros) correspondant au moins au cinquième du nominal desdites parts sociales, est certifié exact, sincère et véritable par messieurs Stéphane LANGLOIS et Nicolas PERRIAULT, associés fondateurs et gérants.
+Le présent état, qui constate la souscription de 104 (cent quatre) parts sociales de la société Scopyleft, ainsi que le versement de la somme de 6240 € (six mille deux cent quarante euros) correspondant au moins au cinquième du nominal desdites parts sociales, est certifié exact, sincère et véritable par messieurs Stéphane LANGLOIS et Nicolas PERRIAULT, associés fondateurs et gérants.
 
 Fait à Montpellier, le 14 décembre 2012
 
