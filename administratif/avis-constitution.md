@@ -1,6 +1,6 @@
 # AVIS DE CONSTITUTION
 
-Suivant acte sous seing privé en date du 01/12/2012 il a été constitué, sous la dénomination Scopyleft, une Société coopérative ouvrière de production à responsabilité limitée régie par la loi n° 78-463 du 19 juillet 1978 et les dispositions réglementaires en vigueur, dont le siège social est : 4, chemin de la Magnanerie - 34830 Clapiers, l’objet social est :
+Suivant acte sous seing privé en date du 01/12/2012 il a été constitué, sous la dénomination Scopyleft, une Société coopérative ouvrière de production à responsabilité limitée régie par la loi n° 78-463 du 19 juillet 1978 et les dispositions réglementaires en vigueur, dont le siège social est : 5, chemin de la Magnanerie - 34830 Clapiers, l’objet social est :
 
 1. L'étude, le conseil, l'accompagnement, l'organisation et le suivi de projets informatiques,
 2. La création, le développement et l'exploitation d'applications informatiques,
@@ -13,7 +13,7 @@ d’une durée de 99 années à compter de l'immatriculation de la Société au 
 
 * Larlet David demeurant 17, rue des Suisses - 13200 Arles
 * Perriault Nicolas demeurant 178, chemin du Puech Saint Peyre - 34170 Castelnau le Lez
-* Langlois Stéphane demeurant 4, chemin de la Magnanerie - 34830 Clapiers
+* Langlois Stéphane demeurant 5, chemin de la Magnanerie - 34830 Clapiers
 * Agnano Vincent demeurant 103, rue Antoine Jérôme Balard - Les 3 horizons, appt A004, 34790 Grabels
 
 Immatriculation : au RCS de <numero>
