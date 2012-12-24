@@ -1,6 +1,8 @@
-# SCOPYLEFT
+SCOPYLEFT
+=========
 
-## SOCIETE COOPERATIVE DE PRODUCTION A RESPONSABILITE LIMITEE, A CAPITAL VARIABLE
+SOCIETE COOPERATIVE DE PRODUCTION A RESPONSABILITE LIMITEE, A CAPITAL VARIABLE
+------------------------------------------------------------------------------
 
 > SIEGE : 5, chemin de la Magnanerie, 34830 Clapiers
 >
@@ -8,7 +10,7 @@
 
 
 Statuts
--------
+=======
 
 # Préambule
 
