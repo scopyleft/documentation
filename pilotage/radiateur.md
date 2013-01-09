@@ -50,4 +50,3 @@
 * [trello constition](https://trello.com/board/constitution/50879d153736d86435004cba)
 * [trello crm](https://trello.com/board/poor-man-crm/509aaab9b059652c26017626)
 * [github documentation](https://github.com/scopyleft/documentation)
-* [CR equisud](https://framapad.org/scopyleft-equisud)
