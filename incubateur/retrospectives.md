@@ -7,7 +7,7 @@ Nous effectuons tous les mois une rétrospective de nos actions réalisées au c
 * ce qui s'est mal passé
 * ce qui pourrait être amélioré
 
-Nous utilisons un tableau et des post-it pour structurer nos discussions. Vous pouvez voir ce que cela donne concrètement sur cette vidéo accélérée :
+Nous utilisons un tableau et des post-it pour structurer nos discussions. Vous pouvez voir ce que cela donne concrètement sur cette [vidéo accélérée](http://vimeo.com/57051886) :
 
 <iframe src="http://player.vimeo.com/video/57051886" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
