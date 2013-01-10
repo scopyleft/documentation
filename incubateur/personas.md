@@ -67,11 +67,11 @@ Elle a entendu parler de Scopyleft par son fils, un peu geek, qui l'a déjà con
 
 ## Patricia, responsable innovation chez TCI lance un nouveau projet
 
-Patricia est maman depuis 25 ans. Elle a toujours voulu un avenir sein pour ses enfants. Elle s'est lancée comme responsable innovation dans le regroupement des Transports Collectifs et Individuels depuis leur naissance pour cette raison. Elle prend le train et le tram au quotiden.
+Patricia est maman depuis 25 ans. Elle a toujours voulu un avenir sein pour ses enfants. Elle s'est lancée comme responsable innovation dans le regroupement des Transports Collectifs et Individuels depuis leur naissance pour cette raison. Elle prend le train et le tram au quotidien.
 
-Depuis un certain temps, elle ressent une inéficacité sur la combinaison des transports. Il lui mettent trop longtemps sur son parcours pourtant simple. Les grèves récentes n'ont pas non plus aidé à l'efficacité.
+Depuis un certain temps, elle ressent une inefficacité sur la combinaison des transports. Il lui mettent trop longtemps sur son parcours pourtant simple. Les grèves récentes n'ont pas non plus aidé à l'efficacité.
 Elle a entammé une enquête utilisateurs et les résultats vont dans le sens de ce qu'elle présentait.
-Elle a donc proposé un nouveau projet de transport plus pertinent et plus adéquat à sa hierarchie. Elle a maintenant carte blanche pour lancer le projet dont le web sera la plaque tournante.
+Elle a donc proposé un nouveau projet de transport plus pertinent et plus adéquat à sa hiérarchie. Elle a maintenant carte blanche pour lancer le projet dont le web sera la plaque tournante.
 
 Patricia s'est renseignée auprès de ses confrères. Plusieurs l'ont redirigée vers Scopyleft. Elle semble partager leurs valeurs mais ne connait rien à la technique. Elle a besoin d'être accompagnée et écoutée pour la réalisation de ce projet.
 
@@ -87,7 +87,7 @@ Des projets entrants semblent de plus en plus demander ou impliquer Python et Dj
 
 John demande à ce que chaque intervenant, placé en régie chez le client, envoie sont CV au format Word afin qu'il puisse les brander aux couleurs de sa SSII, et éventuellement rajouter de sa propre initiative quelques compétences qui manqueraient pour achever de convaincre son client.
 
-**Points bloquants : divergeance de valeurs humaines et professionnelles, relation hiérarchique client/prestataire.**
+**Points bloquants : divergence de valeurs humaines et professionnelles, relation hiérarchique client/prestataire.**
 
 
 ## Geneviève, l'interlocutrice Grand Compte, gros projet, gros budget
