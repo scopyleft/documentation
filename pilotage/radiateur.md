@@ -34,6 +34,7 @@
 * Kanban Lyon Cara : 15/01
 * Paris Rdv : 31/01
 * Agile game : 01/02 et 02/02 - Kyriad Courtine Avignon - 2 rue Mère Teresa
+* Agile Open Sud : 05/04 au 07/04 - Equisud
 
 **Passé**
 * atgrenoble : 8/11
