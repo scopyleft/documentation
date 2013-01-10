@@ -14,4 +14,8 @@ Regroupe les [brouillons d'articles en cours de rédaction](https://github.com/s
 
 ## Pilotage
 
-Contient pour l'instant les points de discussion de nos [rétrospectives](https://github.com/scopyleft/documentation/tree/master/pilotage/retrospectives).
+Contient les points de discussion de nos [rétrospectives](https://github.com/scopyleft/documentation/tree/master/pilotage/retrospectives).
+
+Le [radiateur d'information](https://github.com/scopyleft/documentation/tree/master/pilotage/radiateur.md) est le tableau de bord de scopyleft.
+
+Le résultat de notre atelier [Remember the Future](https://github.com/scopyleft/documentation/tree/master/pilotage/20121114-remember-the-future.md) liste nos projections.
