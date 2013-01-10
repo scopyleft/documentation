@@ -11,7 +11,7 @@ Note de l'atelier collectif du 14 novembre 2012, ou chacun est amené à s'expri
 
 - Nous sommes maintenant 8 collaborateurs depuis peu
 - Les valeurs se sont affinées et fortifiées avec le le temps
-- Les réalilités économiques du début se sont allégées et même si cela n'a pas été facile, nous avons appris à converger
+- Les réalités économiques du début se sont allégées et même si cela n'a pas été facile, nous avons appris à converger
 - Après en avoir testé de nombreux outils, nous avons finalement opté pour des nouveaux sortis il y a 2 ans qui couvrent entièrement nos besoins.
 
 ## David
