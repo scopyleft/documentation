@@ -4,8 +4,8 @@ Nous effectuons tous les mois une rétrospective de nos actions réalisées au c
 
 * ce qui a été réalisé
 * ce qui s'est bien passé
-* ce qui s'est mal passé
-* ce qui pourrait être amélioré
+* ce qui s'est moins bien passé
+* ce qui pourra être fait
 
 Nous utilisons un tableau et des post-it pour structurer nos discussions. Vous pouvez voir ce que cela donne concrètement sur cette [vidéo accélérée](http://vimeo.com/user15722737/timelapse-retrospective-scopyleft) :
 
