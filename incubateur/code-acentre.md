@@ -27,6 +27,6 @@ Ne surtout pas oublier le `/` final sinon la récupération ne pourra pas être 
 
 Une fois cela mis en place, le *workflow* de travail est un peu différent puisqu’il **n’y a jamais de `push`**, chaque développeur récupérant ce dont il a besoin chez les autres pour avancer sans rien leur imposer.
 
-L’expérience s’est avérée relativement concluante une fois les différentes commandes ci-dessus acquises, et permettra de mettre en pratique un tel *workflow* lors d’un futur `[/dev/fort](http://devfort.com/)` où la connexion est par définition limitée.
+L’expérience s’est avérée relativement concluante une fois les différentes commandes ci-dessus acquises, et permettra de mettre en pratique un tel *workflow* lors d’un futur [`/dev/fort`](http://devfort.com/) où la connexion est par définition limitée.
 
 *Qu’il est bon d’enfin utiliser un* **D***CVS à bon escient :-)*
