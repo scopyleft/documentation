@@ -17,3 +17,5 @@ Regroupe les [brouillons d'articles en cours de rédaction](https://github.com/s
 Contient les points de discussion de nos [rétrospectives](https://github.com/scopyleft/documentation/tree/master/pilotage/retrospectives)
 
 Le résultat de notre atelier [Remember the Future](https://github.com/scopyleft/documentation/tree/master/pilotage/20121114-remember-the-future.md) liste nos projections.
+
+La liste et l'état de [nos encours quotidiens](https://trello.com/board/quotidien/50879d153736d86435004cba) sont également accessibles publiquement.
