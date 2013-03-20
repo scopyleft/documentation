@@ -26,7 +26,7 @@ Négligeant dans un premier temps le *business model* prédictif à court terme,
 
 Au terme de ce travail, ils se sont accordés sur cette phrase fondatrice :
 
-> Travailler entre Humains, sur des projets éthiques et intéressants, tout en privilégiant le bien- être et le plaisir de chacun.
+> Travailler entre Humains, sur des projets éthiques et intéressants, tout en privilégiant le bien-être et le plaisir de chacun.
 
 Un manifeste propre à la coopérative a été rédigé pour préciser les valeurs retenues en parallèle de cette maxime (honnêteté intellectuelle, courage, respect, partage et bien-être). Ces valeurs ont également été insérées en préambule des statuts de la société.
 
@@ -38,7 +38,7 @@ Après quelques semaines à travailler ensemble, nos quatre aventuriers réalise
 
 L'aspect démocratique de la SCOP se trouve être très responsabilisant ; les engagements pris mettent en jeu la santé de l'entreprise mais aussi la confiance au sein de l'équipe de manière quotidienne. Ils se poussent à sortir de leurs zones de confort respectives pour avancer ensemble au service d’un projet commun.
 
-En contrepartie, les échanges au cours de ces remises en question sont extrêmement enrichissants. Ils sont source d'inspiration et de curiosité pour mieux comprendre les autres dans leur façon de penser et de communiquer. Cette aventure se révèle être avant tout une aventure humaine.
+En contrepartie, les échanges au cours de ces remises en question sont extrêmement enrichissants. Ils sont source d'inspiration et de curiosité pour mieux comprendre les autres dans leur façon de penser et de communiquer. Cette aventure se révèle être avant tout de nature humaine.
 
 ## Une coopération ouverte
 
