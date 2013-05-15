@@ -6,7 +6,7 @@
 
 1. Scopyleft enregistré sous le numéro de déclaration d'activité ……………………………………………………………………………. auprès de la
 Direction Régionale des Entreprises, de la Concurrence, de la Consommation, du Travail et de l’Emploi
-2. Scopyleft représentée par ………………………………………………………………………………………………… est conclue la
+2.  …………………………………………………………………………………………………  représentée par ………………………………………………………………………………………………… est conclue la
 convention suivante, en application des dispositions du Livre III de la Sixième partie du Code du travail portant organisation de la formation professionnelle continue.
 
 
