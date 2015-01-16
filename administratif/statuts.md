@@ -67,10 +67,8 @@ Si nous devions résumer notre volonté en une phrase, en fondant cette sociét�
 - Nous argumentons pour exposer, sans essayer de convaincre nos interlocuteurs ;
 - Nous veillons à rester de bonne foi dans notre argumentation ;
 - Nous préférons le consentement à la recherche du consensus ;
-- Les personnes qui objectent contribuent activement à la recherche d’une solution à leur
-objection ;
-- Nous essayons de rendre visible et transparent les tenants et les aboutissants de nos
-actions et collaborations.
+- Les personnes qui objectent contribuent activement à la recherche d’une solution à leur objection ;
+- Nous essayons de rendre visible et transparent les tenants et les aboutissants de nos actions et collaborations.
 
 ### Courage
 
@@ -109,16 +107,14 @@ actions et collaborations.
 Pour l'exercice en commun des professions des associés, il est créé entre les soussignés et il existe entre eux, et ceux qui deviendront par la suite associés, une Société Coopérative de Production à responsabilité limitée, à capital variable régie par :
 
 - les présents statuts ;
-- la loi n° 78-763 du 19 juillet 1978 portant statut des sociétés coopératives ouvrières de
-production et ses décrets d'application ;
+- la loi n° 78-763 du 19 juillet 1978 portant statut des sociétés coopératives ouvrières de production et ses décrets d'application ;
 - la loi n° 47-1775 du 10 septembre 1947 portant statut de la coopération ;
-- le livre II du Code de commerce et plus particulièrement par les articles L.223-1 à L.223-
-43, R 223-1 à R 223-36, L.231-1 à L.231-8 et R.210 -1 et suivants.
+- le livre II du Code de commerce et plus particulièrement par les articles L.223-1 à L.223-43, R 223-1 à R 223-36, L.231-1 à L.231-8 et R.210 -1 et suivants.
 
 
 ## Article 2 Dénomination
 
-La société a pour dénomination : *Scopyleft*
+La société a pour dénomination : *scopyleft*
 
 Tous actes et documents émanant de la société et destinés aux tiers, notamment les lettres, factures, annonces et publications diverses, doivent indiquer la dénomination sociale, précédée ou suivie immédiatement et lisiblement des mots « Société coopérative de production à responsabilité limitée, à capital variable » ou Scop ARL à capital variable.
 
@@ -137,8 +133,7 @@ La Société a pour objet :
 - L'étude, le conseil, l'accompagnement, l'organisation et le suivi de projets informatiques,
 - La création, le développement et l'exploitation d'applications informatiques,
 - La réalisation et la mise en place de formation à tous les outils informatiques,
-- L'organisation d'évènements communautaires autour des nouvelles technologies de
-l'information et de la communication.
+- L'organisation d'évènements communautaires autour des nouvelles technologies de l'information et de la communication.
 
 Et toutes activités annexes, connexes ou complémentaires s'y rattachant directement ou indirectement, ainsi que toutes opérations civiles, commerciales, industrielles, mobilières, immobilières, de crédit, utiles directement ou indirectement à la réalisation de l'objet social.
 
@@ -163,7 +158,7 @@ Les soussignés, dont les noms suivent, apportent à la Société :
 - M. LARLET David : né le 23 avril 1982 à Marseille (13) demeurant au 17, rue des suisses 13200 Arles, pacsé, apporte 1560 € représentés par 26 parts sociales ;
 - M. PERRIAULT Nicolas : né le 13 septembre 1976 à Clamart (92) demeurant au 178, chemin de Puech Saint Peyre, célibataire, apporte 1560 € représentés par 26 parts sociales ;
 - M. LANGLOIS Stéphane : né le 23 mai 1967 à Cholet (49) demeurant au 5, chemin de la magnanerie 34830 Clapiers, célibataire, apporte 1560 € représentés par 26 parts sociales ;
-- M. AGNANO Vincent : né le 30 mars 1981 à Mons (BE) demeurant au 103 rue Antojérôme Balard 34790 Grabels, célibataire, apporte 1560 € représentés par 26 parts sociales.
+- M. AGNANO Vincent : né le 30 mars 1981 à Mons (BE) demeurant au 103, rue Antoine Jérôme Balard 34790 Grabels, célibataire, apporte 1560 € représentés par 26 parts sociales.
 
 Soit un total de 6240 € représentant le montant intégralement libéré des parts, laquelle somme a été régulièrement déposée le 14 décembre 2012 à un compte ouvert au nom de la Société en formation à la banque la Nef/Crédit Coopératif ainsi qu’il en est justifié au moyen du récépissé établi par la banque dépositaire.
 
@@ -362,15 +357,18 @@ Elle doit être notifiée par écrit au gérant. Si elle est donnée par un asso
 
 Ou par tout autre mode de rupture du contrat de travail à l’exclusion des modes de rupture expressément énumérés ci-après qui ne font pas perdre la qualité d’associé :
 
-La perte de la qualité d’associé intervient dès la notification de la rupture du contrat de travail par la partie qui en a pris l’initiative (date de première présentation de la lettre recommandée ou
-de la remise en main propre contre décharge) et si la rupture du contrat de travail intervient par accord des parties, à la date de prise d’effet de la rupture.
+La perte de la qualité d’associé intervient dès la notification de la rupture du contrat de travail par la partie qui en a pris l’initiative (date de première présentation de la lettre recommandée ou de la remise en main propre contre décharge) et si la rupture du contrat de travail intervient par accord des parties, à la date de prise d’effet de la rupture.
 
 Dans le cas où l’associé salarié a fait part au gérant de sa demande de conserver la qualité d’associé, une assemblée devra être convoquée avant la fin du préavis. Si l’assemblée refuse le maintien de la qualité d’associé, ce dernier sera réputé avoir perdu cette qualité à la date de notification de la rupture de son contrat de travail.
 
 Modes de rupture du contrat de travail ne faisant pas perdre la qualité d’associé :
 
-- Le départ ou la mise à la retraite,
-- Le licenciement pour motif économique et l'invalidité rendant l'intéressé inapte au travail, Tous les autres modes de rupture du contrat de travail font perdre la qualité d’associé.
+- Le départ ou la mise à la retraite ;
+- Le licenciement pour motif économique ;
+- L'invalidité rendant l'intéressé inapte au travail.
+ 
+Tous les autres modes de rupture du contrat de travail font perdre la qualité d’associé.
+
 Les anciens salariés deviennent alors des associés non employés ou extérieurs auxquels il est possible de faire perdre la qualité d’associé, sur décision de l’assemblée des associés.
 
 ### 16.3 Par le décès de l'associé.
@@ -478,7 +476,9 @@ Ils doivent être associés. Les deux tiers des gérants doivent être employés
 S'ils n'ont pas conclu un contrat de travail avec la Société, ou si, du fait de l'exercice de leur mandat, ils ne peuvent exercer les fonctions prévues à ce contrat, les gérants percevant une rémunération au titre de leur mandat social sont considérés, conformément à l’article 17 de la loi du 19 juillet 1978, comme travailleurs employés de la Société au regard des présents statuts et de l'application de la législation du travail et de la sécurité sociale.
 
 
-## Article 21 Durée des fonctions 21.1 Nomination
+## Article 21 Durée des fonctions
+
+### 21.1 Nomination
 
 Les gérants sont choisis par les associés pour une durée de 1 an. La nomination est prononcée à la majorité du nombre total des voix sur première convocation et à la majorité des voix des associés présents ou représentés sur deuxième convocation.
 
@@ -498,7 +498,9 @@ Le gérant dispose de tous les pouvoirs nécessaires pour agir en toutes circons
 En cas de pluralité de gérants, chacun des gérants dispose de l’intégralité des pouvoirs.
 
 
-## Article 23 Révision coopérative 23.1 Périodicité
+## Article 23 Révision coopérative
+
+### 23.1 Périodicité
 
 La Société fera procéder tous les ans à la révision coopérative prévue par la loi 84-1027 du 23/11/1984 modifiée par le décret 88-245 du 10/03/1988 et dont le contenu a été fixé par un arrêté du 19/03/1989.
 
@@ -506,8 +508,7 @@ En outre, la révision coopérative devra intervenir sans délai si :
 
 - elle est demandée par le dixième des associés ;
 - trois exercices consécutifs font apparaître des pertes comptables ;
-- les pertes d'un exercice s'élèvent à la moitié au moins du montant le plus élevé atteint
-par le capital.
+- les pertes d'un exercice s'élèvent à la moitié au moins du montant le plus élevé atteint par le capital.
 
 ### 23.2 Rapport de révision
 
@@ -665,7 +666,9 @@ Par exception, le premier exercice commencera à dater de l'immatriculation de l
 Le bilan, le compte de résultat et l'annexe de la Société sont établis par le gérant et soumis à l'Assemblée générale ordinaire.
 
 
-## Article 32 Excédents nets 32.1 Textes applicables
+## Article 32 Excédents nets 
+
+### 32.1 Textes applicables
 
 L'ensemble des lois commerciales et comptables s’appliquent, en particulier les articles L 123- 12 à L 123-24 et R 123–172 à R 123-208 du code de commerce.
 
