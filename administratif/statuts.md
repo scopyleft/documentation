@@ -140,7 +140,7 @@ Et toutes activités annexes, connexes ou complémentaires s'y rattachant direct
 
 ## Article 5 Siège social
 
-Le Siège social est fixé au 5 chemin de la Magnanerie, 34830 Clapiers.
+Le Siège social est fixé au 103 rue Jérôme Antoine BALARD BAT A APPT 4 - Résidence des 3 Horizons - 34790 GRABELS.
 
 Il peut être transféré en tout autre lieu par décision des associés statuant à la majorité requise pour la modification des statuts.
 
